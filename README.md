@@ -4,7 +4,7 @@ A Chrome extension that adds keyboard shortcuts to Xero's bank account reconcili
 
 ## Features
 
-- **Ctrl+Enter** (Windows/Linux) or **Cmd+Enter** (Mac): Presses the OK button for the currently focused transaction in the reconciliation interface
+- **Ctrl+Enter** (Windows/Linux) or **Cmd+Enter** (Mac): Presses the OK button for the currently focused transaction in the reconciliation interface.  **IMPORTANT**: for this keyboard shortcut to work in the "Create" tab, you must first tab or click away from the "What" field.  Otherwise, Xero will interpret the keypress of Ctrl (or Cmd on Mac) as the start of a new search of the typeahead for an Account, and, finding no results, will remove your chosen value. 
 
 ## Installation
 
